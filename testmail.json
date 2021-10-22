@@ -1,5 +1,5 @@
 {
-    "from": "Bob@bob.bob",
-    "subject": "Bob's Bobbers",
-    "text": "Bob Bob's Bobbers bobbing bobbily bob bobbing."
+    "name": "Bob",
+    "email": "Bob@email.com",
+    "message": "Bob speaking. Speaking is Bob."
 }

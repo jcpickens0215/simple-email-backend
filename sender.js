@@ -25,7 +25,7 @@ const sender = async ({body}, res) => {
     // Preload email settings
     const mailOptions = {
         from : process.env.USER,
-        to: "justin.pickens@gmx.com",
+        to: process.env.DESTINATION,
         subject : `New e-mail from ${body.name}, ${body.email}`,
         text : body.message,
     }
