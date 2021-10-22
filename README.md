@@ -1,7 +1,7 @@
 # Simple E-mail Backend
 ![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
 ## Description
-This is a simple e-mail backend that will send an email to your specified destination on a POST request.
+This is a simple e-mail backend that will send an email to your specified destination on a POST request. Uses Express and Nodemailer
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)

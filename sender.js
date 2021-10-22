@@ -31,7 +31,7 @@ const sender = async ({body}, res) => {
     }
 
     // Send the email
-    const info = await transporter.sendMail(mailOptions,(err, info) => {
+    transporter.sendMail(mailOptions,(err, info) => {
         if (err){
            console.log(err.message);
            res.status(500);
