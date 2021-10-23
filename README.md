@@ -15,14 +15,17 @@ Create a **.env** file with the following vars:
 - DESTINATION
 - USER
 - PASSWORD
+- ORIGIN
 
 PORT will be the port that your dev server runs on,
 
 DESTINATION will be the email that the server sends to,
 
-USER is the full gmail account that you wish to use to send emails, and
+USER is the full gmail account that you wish to use to send emails,
 
-PASSWORD is the password for the sending account.
+PASSWORD is the password for the sending account,
+
+ORIGIN is the site making the POST request
 ## Usage
 Start your favorite API testing app, and send a POST request to <u>http://localhost:PORT</u> with a JSON object following the template provided by testmail.json. If you configured your app correctly according to the installation instructions, you should see a new email!
 ## Deployment
